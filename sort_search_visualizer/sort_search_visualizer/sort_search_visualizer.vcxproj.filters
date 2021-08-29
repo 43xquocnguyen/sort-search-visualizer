@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{ff055629-bc74-4d52-9ae7-0d6fbc0d46b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedSearch">
+      <UniqueIdentifier>{285314ea-8c3d-41f2-b97a-34de71649e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedSort">
+      <UniqueIdentifier>{5e60212f-7966-4a0a-9227-cf6bfbbbf5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics&amp;Support">
+      <UniqueIdentifier>{dce3db2d-f91b-4c99-882b-22a504eb1c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{b861b472-8b8e-4494-92dc-a8d93b9896a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextFile">
+      <UniqueIdentifier>{4b74d457-8d8d-4d19-84b0-1d98d3f2b5af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Algorithms\Algorithms.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Search.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Sort.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSearch\BinarySearch.cpp">
+      <Filter>DerivedSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSearch\JumpSearch.cpp">
+      <Filter>DerivedSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSearch\LinearSearch.cpp">
+      <Filter>DerivedSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSort\BinaryInsertionSort.cpp">
+      <Filter>DerivedSort</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSort\BubbleSort.cpp">
+      <Filter>DerivedSort</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSort\InsertionSort.cpp">
+      <Filter>DerivedSort</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSort\InterchangeSort.cpp">
+      <Filter>DerivedSort</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSort\SelectionSort.cpp">
+      <Filter>DerivedSort</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedSort\ShakerSort.cpp">
+      <Filter>DerivedSort</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics&amp;Support\Graphic.cpp">
+      <Filter>Graphics&amp;Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics&amp;Support\HoTro.cpp">
+      <Filter>Graphics&amp;Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Box.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\DieuKhienMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithms\Algorithms.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Search.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Sort.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSearch\BinarySearch.h">
+      <Filter>DerivedSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSearch\JumpSearch.h">
+      <Filter>DerivedSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSearch\LinearSearch.h">
+      <Filter>DerivedSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSort\BinaryInsertionSort.h">
+      <Filter>DerivedSort</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSort\BubbleSort.h">
+      <Filter>DerivedSort</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSort\InsertionSort.h">
+      <Filter>DerivedSort</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSort\InterchangeSort.h">
+      <Filter>DerivedSort</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSort\SelectionSort.h">
+      <Filter>DerivedSort</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedSort\ShakerSort.h">
+      <Filter>DerivedSort</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics&amp;Support\Graphic.h">
+      <Filter>Graphics&amp;Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics&amp;Support\HoTro.h">
+      <Filter>Graphics&amp;Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Box.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\DieuKhienMenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TextFile\aboutme.txt">
+      <Filter>TextFile</Filter>
+    </Text>
+    <Text Include="TextFile\intro.txt">
+      <Filter>TextFile</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
