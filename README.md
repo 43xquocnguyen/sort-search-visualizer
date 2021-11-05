@@ -7,3 +7,6 @@ And I will try my best to do better in the future. If you have any comments for 
 I just built on some simple algorithms:
   * Search: Linear, Binary, Jump.
   * Sort: Interchange, Bubble, Shaker, Insertion, Selection, Binary Insertion.
+
+#### === I built this program on VS 2019 === ####
+#### === Use VS 2019 to open this project  === ####
